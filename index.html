@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
+  <!-- Poppins (full site) -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <title>Zahid Shaikh | Web Deeloper - Web Designer</title>
+
+  <link rel="icon" type="image/png" href="img/logo_icon.jpeg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar">
+  <div class="nav-inner">
+    <div class="nav-left">
+      <span class="logo">Zahid Shaikh</span>
+    </div>
+
+    <div class="menu-toggle" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div class="nav-right">
+      <a class="hire-btn" style="font-family: 'Poppins';" href="#contact">Hire Me</a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+
+  <div class="hero-content">
+    <h1 class="reveal">ZAHID<br>SHAIKH</h1>
+    <p class="life-timer reveal-up">
+      been here for <span id="age"></span> years
+    </p>
+
+
+    <h2 class="reveal delay-1">
+      Developer × Vibe Coder
+    </h2>
+
+    <p class="reveal delay-2">
+      Web Designer · Web Developer ·<br>
+      Building clean, responsive, and user-friendly web experiences
+    </p>
+
+    <div class="hero-buttons">
+      <a href="#projects" class="btn orange stagger">View my projects</a>
+      <a href="#contact" class="btn red stagger">Hire Me</a>
+      <a href="assets/Resume.pdf" download class="btn ghost stagger">Download CV</a>
+    </div>
+
+    <small class="reveal delay-3">
+      Creator Profile: <span>@zaikhdev</span>
+    </small>
+  </div>
+
+  <div class="scroll-indicator reveal delay-3">
+    <span></span>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="about-label reveal-left">ABOUT</div>
+
+  <div class="about-card reveal-right">
+    <h3>Building clean, scalable, and modern web applications</h3>
+    <p>
+      Web developer with hands-on experience in frontend and backend development.
+      Works with HTML, CSS, JavaScript, PHP, and Laravel to build responsive,
+      user-focused web interfaces and functional server-side systems.
+      <br><br>
+      Familiar with Java and Python for logic building, problem-solving,
+      and understanding core programming concepts. Focuses on writing clean,
+      maintainable code and structuring projects in a clear, scalable way.
+      <br><br>
+      Uses AI tools daily to speed up development, debug efficiently,
+      plan features, and improve overall code quality and productivity.
+    </p>
+  </div>
+</section>
+
+<!-- SOCIAL CARD -->
+<section class="social-proof">
+  <div class="social-card reveal-left">
+    <div class="social-left">
+      <div class="x-logo">
+        <img src="img/logo_icon.jpeg" alt="">
+      </div>
+      <div>
+        <h4>10+ <span>projects built</span></h4>
+        <p>Frontend & Full-Stack Practice</p>
+      </div>
+    </div>
+
+    <div class="social-right">
+      <span class="pill">✓ Responsive Design</span>
+      <span class="pill">✓ Clean Code</span>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="projects" id="projects">
+ <h2 class="projects-title reveal-up">PROJECTS</h2>
+
+  <div class="projects-grid">
+
+    <!-- Project Card 1 -->
+    <div class="project-card reveal-up">
+  <div class="project-image">
+    <img src="img/1st.png" alt="Project Image">
+  </div>
+
+  <div class="project-body">
+    <div class="project-header">
+      <h3>Crypto Tracker</h3>
+
+      <div class="project-links">
+        <a href="https://github.com/Zaikh/CryptoPulse.git" target="_blank" aria-label="GitHub Repo">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://crypto-pulse-kappa-six.vercel.app/" target="_blank" aria-label="Live Demo">
+          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+      </div>
+    </div>
+
+    <p class="project-desc">
+      A clean, real-time crypto tracker built with Vanilla JavaScript using public APIs.
+    </p>
+  </div>
+</div>
+
+
+    <!-- Project Card 2 -->
+   <div class="project-card reveal-up">
+  <div class="project-image">
+    <img src="img/2nd.png" alt="Project Image">
+  </div>
+
+  <div class="project-body">
+    <div class="project-header">
+      <h3>Repository Finder</h3>
+
+      <div class="project-links">
+        <a href="https://github.com/Zaikh/RepoScout.git" target="_blank" aria-label="GitHub Repo">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://repo-scout-lilac.vercel.app/" target="_blank" aria-label="Live Demo">
+          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+      </div>
+    </div>
+
+    <p class="project-desc">
+      Discover random GitHub repositories by language and topic.
+    </p>
+  </div>
+</div>
+
+
+    <!-- Project Card 3 -->
+   <div class="project-card reveal-up">
+  <div class="project-image">
+    <img src="img/3rd.png" alt="Project Image">
+  </div>
+
+  <div class="project-body">
+    <div class="project-header">
+      <h3>Weather App</h3>
+
+      <div class="project-links">
+        <a href="https://github.com/Zaikh/weather-dashboard.git" target="_blank" aria-label="GitHub Repo">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://weather-dashboard-pied-theta-73.vercel.app/" target="_blank" aria-label="Live Demo">
+          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+      </div>
+    </div>
+
+    <p class="project-desc">
+      Live weather updates with a clean, responsive dashboard.
+    </p>
+  </div>
+</div>
+
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="skills" id="skills">
+  <h2>SKILLS</h2>
+
+  <div class="skills-grid">
+    <div class="skill-card reveal-up">
+      <h3>Frontend Development</h3>
+      <ul>
+        <li>HTML5, CSS3, Responsive Layouts</li>
+        <li>JavaScript (DOM, Events, Logic)</li>
+        <li>Modern UI Design & Animations</li>
+        <li>Cross-browser Compatibility</li>
+        <li>Performance & Accessibility Basics</li>
+        <li>Clean, Maintainable Code Structure</li>
+        <li>UI Implementation from Figma Designs</li>
+      </ul>
+    </div>
+
+    <div class="skill-card reveal-up">
+        <h3>Backend & Programming</h3>
+        <ul>
+          <li>PHP Development & Laravel Framework</li>
+          <li>CRUD Operations & MVC Architecture</li>
+          <li>Basic Database Handling (MySQL)</li>
+          <li>Java Fundamentals & OOP Concepts</li>
+          <li>Python Basics for Logic & Scripting</li>
+        </ul>
+    </div>
+
+    <div class="skill-card reveal-up">
+      <h3>UI/UX & Tools</h3>
+      <ul>
+        <li>Figma (UI Design, Prototyping)</li>
+        <li>Design-to-Code Workflow</li>
+        <li>Glassmorphism & Modern UI Patterns</li>
+        <li>Version Control Basics (Git/GitHub)</li>
+        <li>AI Tools for Coding, Debugging & Planning</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="tools-label reveal-up">Tools and Languages</div>
+
+  <div class="tools reveal-up">
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>JavaScript</span>
+    <span>Figma</span>
+    <span>Java</span>
+    <span>Python</span>
+    <span>PHP</span>
+    <span>Laravel</span>
+    <span>SQL</span>
+    <span>UI/UX</span>
+    <span>Claude Code</span>
+    <span>AI Tools (writing, coding, planning, QA)</span>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta reveal-zoom" id="contact">
+  <h1>LET’S BUILD<br>SOMETHING</h1>
+  <p class="reveal-up">
+    Looking for a developer/company who builds clean, modern web applications?<br>
+    Let’s collaborate to create fast, responsive, and user-focused solutions.
+  </p>
+
+
+  <div class="cta-buttons">
+    <a href="https://twitter.com/zaikhdev" class="btn orange stagger">DM on X/Twitter</a>
+    <a class="btn red stagger">Hire Me</a>
+    <a href="assets/Resume.pdf" download class="btn ghost stagger">Download CV</a>
+  </div>
+
+    <small style="font-size: 15px;">
+    GitHub<a href="https://github.com/zaikh" target="_blank" style="cursor: pointer; text-decoration: none;"> <span>@zaikh</span></a> • Open to full-time & contract work · <span>~let's collaborate and work together.</span>
+    </small>
+
+    <div class="divider" style="
+    width: 90%;
+    height: 1px;
+    margin: 50px auto;
+    background: linear-gradient(
+    90deg,
+    transparent,
+    #ff8a1f,
+    transparent
+    );
+    box-shadow: 0 0 12px rgba(197, 95, 12, 0.6);
+    border-radius: 10px;
+    "></div>
+
+    <div class="down-br">
+      <p>Or send me an email</p>
+      <a href="mailto:zerryforcollege@gmail.com"><b>ZahidShaikh</b></a>
+    </div>
+</section>
+
+<section class="footer">
+  <div class="down-br foot" style="margin-top: 40px; margin-bottom: 20px; border-top: 1px solid rgba(255, 255, 255, 0.1); padding: 20px 100px; display: flex; justify-content: space-between;">
+    <p>© 2025 Zahid Shaikh. Built with HTML + CSS + Javascript.</p>
+    <p class="icons" style="gap: 50px; display: flex;">
+      <a href="https://github.com/zaikh" target="_blank">
+        <i class="fa-brands fa-github" style="font-size: 20px;"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/zahid-shaikh-92a319299/" target="_blank">
+        <i class="fa-brands fa-linkedin-in" style="font-size: 20px;"></i>
+      </a>
+      <a href="https://twitter.com/zaikhdev" target="_blank">
+        <i class="fa-brands fa-x-twitter" style="font-size: 20px;"></i>
+      </a>
+    </p>
+  </div>
+</section>
+
+<!-- Cursor Glow -->
+<div class="cursor-glow"></div>
+
+<!-- Mouse Blob -->
+<div class="mouse-blob"></div>
+
+<!-- Noise Overlay -->
+<div class="noise-overlay"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
